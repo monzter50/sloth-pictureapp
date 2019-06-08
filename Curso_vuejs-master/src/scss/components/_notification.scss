@@ -1,0 +1,10 @@
+.notification{
+    list-style-type: none;
+    display: flex;
+    font-size: 1.7rem;
+    font-weight: 100;
+
+    &__item{
+        padding: .5rem;
+    }
+}

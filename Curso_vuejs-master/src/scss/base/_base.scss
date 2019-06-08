@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+.container{
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.button{
+  background: blue;
+  color:white;
+  border:none;
+  padding:.5em  1em ;
+  font-size: 2em;
+}
+

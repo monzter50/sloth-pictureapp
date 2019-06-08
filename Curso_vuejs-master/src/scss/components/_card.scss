@@ -1,0 +1,31 @@
+.card{
+    display: grid;
+    grid-template-rows: 150px auto;
+    max-width: 250px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.7);
+    &__header{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    &__description{
+        padding: 1em;
+        .button{
+            background: #2fcdd6;
+            color: white;
+            border: none;
+            padding: .5em 1em;
+            font-size: .8em;
+            outline: none;
+        }
+        .description{
+            font-size: 1em;
+            color:black;
+        }
+    }
+    background: #999;
+    &:nth-child(even){
+        background: red;
+        color: white;
+    }
+}
