@@ -15,7 +15,7 @@ export default {
   components: {
     Card
   },
-  data:function(){
+  data(){
     return{
       items:null,
        error:false,
